@@ -43,7 +43,7 @@ H = 480
 # background selector
 st.sidebar.markdown("# settings")
 BG_dirs = os.listdir(BG_PATH)
-BG_dirs.remove(".DS_Store")
+#BG_dirs.remove(".DS_Store")
 BG_fname = st.sidebar.selectbox("select background image", BG_dirs)
 BG_path = BG_PATH / BG_fname
 BG_files = sorted(os.listdir(BG_path))

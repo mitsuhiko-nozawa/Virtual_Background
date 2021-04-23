@@ -1,6 +1,6 @@
 # Virtual Background Application Running on CPU
 
-### you can access web application version: https://share.streamlit.io/mitsuhiko-nozawa/virtual_background/main/app/rtc_app.py
+### you can access web application version: https://share.streamlit.io/mitsuhiko-nozawa/virtual_background/main/app_rtc.py
 </br>
 
 ### 内蔵カメラの権限の影響で、VSCodeなどからではなく直接ターミナルから起動してください

@@ -41,10 +41,11 @@ H = 480
 ######################## side bar settings ##############################
 
 # background selector
-st.sidebar.markdown("# settings")
+st.sidebar.markdown("# Configuration")
 BG_dirs = os.listdir(BG_PATH)
 #BG_dirs.remove(".DS_Store")
-BG_fname = st.sidebar.selectbox("select background image", BG_dirs)
+st.sidebar.markdown("### select background image")
+BG_fname = st.sidebar.selectbox("there are several images here!", BG_dirs)
 BG_path = BG_PATH / BG_fname
 BG_files = sorted(os.listdir(BG_path))
 SUM = len(BG_files)
@@ -64,27 +65,34 @@ CNT = 0
 #time_disp = st.sidebar.empty()
 fps = 7
 
-# movie upload 
+# file upload 
 import io
-st.sidebar.markdown("---")
-uploaded_file = st.sidebar.file_uploader("Upload file")
+st.sidebar.markdown("### Upload file")
+uploaded_file = st.sidebar.file_uploader("image or video file are avairable")
 if uploaded_file is not None:
-    with open( ROOT / "movies" / uploaded_file.name ,"wb") as f:
-        f.write(uploaded_file.getbuffer())
+    base, ext = uploaded_file.name.split(".")
+    if ext in ["jpeg", "jpg", "png"]:
+        save_dir = BG_PATH / base
+        os.makedirs(save_dir, exist_ok=True)
+    else:
+        save_dir = ROOT / "movies"
+    if not os.path.exists(save_dir / uploaded_file.name):
+        with open( save_dir / uploaded_file.name ,"wb") as f:
+            f.write(uploaded_file.getbuffer())
+        st.experimental_rerun()
+
     st.sidebar.text("upload is successed!")
-
-
-
+    
 
 
 
 
 # movie parse
-st.sidebar.markdown("---")
+st.sidebar.markdown("### video parsing")
 mov_files = os.listdir("movies")
 #mov_files = [file for file in mov_files if "MOV" or "mp4" in file]
 mov_files = [file for file in mov_files if re.match(".+\..+", file)]
-mov_file_selector = st.sidebar.selectbox("select movie file you want to parse", mov_files)
+mov_file_selector = st.sidebar.selectbox("select video file you want to parse", mov_files)
 parse_result = st.sidebar.empty()
 parse_toggle =  st.sidebar.button('parse')
 
@@ -92,10 +100,11 @@ if parse_toggle:
     try:
         parse_result.text("parsing ...")
         parse_movie(mov_file_selector, ROOT)
+        st.experimental_rerun()
         parse_result.text("finished!")
     except:
         parse_result.text("movie is already parsed, please confirm...", )
-    st.experimental_rerun()
+    
         
         
 

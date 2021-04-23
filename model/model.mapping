@@ -1,0 +1,1207 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="364" out_port_id="364"/>
+		<IR id="251" name="BatchNormalization_141/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.d1.conv.weight" out_port_id="model.encoder.level3.0.d1.conv.weight"/>
+		<IR id="118" name="model.encoder.level3.0.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="315" out_port_id="315"/>
+		<IR id="172" name="Conv_95" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.d16.conv.weight" out_port_id="model.encoder.level3.1.d16.conv.weight"/>
+		<IR id="151" name="model.encoder.level3.1.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="334" out_port_id="334"/>
+		<IR id="200" name="Concat_113" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.conv.conv.weight" out_port_id="model.conv.conv.weight"/>
+		<IR id="349" name="BatchNormalization_196/mean/Fused_Mul_66216623_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="291" out_port_id="291"/>
+		<IR id="130" name="Add_73" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.d8.conv.weight" out_port_id="model.encoder.level2.1.d8.conv.weight"/>
+		<IR id="69" name="model.encoder.level2.1.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.d2.conv.weight" out_port_id="model.encoder.level3.7.d2.conv.weight"/>
+		<IR id="281" name="model.encoder.level3.7.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="367" out_port_id="367"/>
+		<IR id="255" name="Conv_143" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="277" out_port_id="277"/>
+		<IR id="105" name="Add_60" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.d16.conv.weight" out_port_id="model.encoder.level3.3.d16.conv.weight"/>
+		<IR id="197" name="model.encoder.level3.3.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.d16.conv.weight" out_port_id="model.encoder.level3.0.d16.conv.weight"/>
+		<IR id="128" name="model.encoder.level3.0.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="211" out_port_id="211"/>
+		<IR id="2" name="Conv_0" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.d2.conv.weight" out_port_id="model.encoder.level3.4.d2.conv.weight"/>
+		<IR id="212" name="model.encoder.level3.4.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="348" out_port_id="348"/>
+		<IR id="223" name="Concat_126" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="335" out_port_id="335"/>
+		<IR id="201" name="Add_114" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="259" out_port_id="259"/>
+		<IR id="71" name="Add_44" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.level3_C.conv.weight" out_port_id="model.level3_C.conv.weight"/>
+		<IR id="92" name="model.level3_C.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="407" out_port_id="407"/>
+		<IR id="321" name="Conv_179" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="234" out_port_id="234"/>
+		<IR id="30" name="Concat_21" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="278" out_port_id="278"/>
+		<IR id="108" name="Add_61" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="310" out_port_id="310"/>
+		<IR id="161" name="PRelu_90" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="256" out_port_id="256"/>
+		<IR id="70" name="Conv_41" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="392" out_port_id="392"/>
+		<IR id="297" name="BatchNormalization_167/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="257" out_port_id="257"/>
+		<IR id="73" name="Conv_42" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="227" out_port_id="227"/>
+		<IR id="20" name="Conv_14" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="358" out_port_id="358"/>
+		<IR id="244" name="Conv_135" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="414" out_port_id="414"/>
+		<IR id="331" name="Add_186" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.c1.conv.weight" out_port_id="model.encoder.level3.3.c1.conv.weight"/>
+		<IR id="185" name="model.encoder.level3.3.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.c1.conv.weight" out_port_id="model.encoder.level3_0.c1.conv.weight"/>
+		<IR id="94" name="model.encoder.level3_0.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="435" out_port_id="435"/>
+		<IR id="90" name="PRelu_52/Cast_112232_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="444" out_port_id="444"/>
+		<IR id="298" name="PRelu_168/Cast_112222_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="244" out_port_id="244"/>
+		<IR id="45" name="Add_30" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.d1.conv.weight" out_port_id="model.encoder.level2.1.d1.conv.weight"/>
+		<IR id="62" name="model.encoder.level2.1.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="380" out_port_id="380"/>
+		<IR id="276" name="PRelu_155" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="252" out_port_id="252"/>
+		<IR id="61" name="Conv_37" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="286" out_port_id="286"/>
+		<IR id="123" name="Conv_68" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="226" out_port_id="226"/>
+		<IR id="18" name="Conv_13" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.c1.conv.weight" out_port_id="model.combine_l2_l3.1.c1.conv.weight"/>
+		<IR id="320" name="model.combine_l2_l3.1.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="342" out_port_id="342"/>
+		<IR id="215" name="Conv_120" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="382" out_port_id="382"/>
+		<IR id="280" name="Conv_157" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="307" out_port_id="307"/>
+		<IR id="155" name="Add_88" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="258" out_port_id="258"/>
+		<IR id="68" name="Add_43" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="229" out_port_id="229"/>
+		<IR id="25" name="Conv_16" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.d2.conv.weight" out_port_id="model.encoder.level3.1.d2.conv.weight"/>
+		<IR id="143" name="model.encoder.level3.1.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="366" out_port_id="366"/>
+		<IR id="253" name="PRelu_142" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.c1.conv.weight" out_port_id="model.encoder.level3.5.c1.conv.weight"/>
+		<IR id="231" name="model.encoder.level3.5.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="346" out_port_id="346"/>
+		<IR id="219" name="Add_124" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="339" out_port_id="339"/>
+		<IR id="209" name="Conv_117" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="247" out_port_id="247"/>
+		<IR id="52" name="Concat_33" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="216" out_port_id="216"/>
+		<IR id="7" name="AveragePool_4" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="235" out_port_id="235"/>
+		<IR id="34" name="BatchNormalization_22/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="439" out_port_id="439"/>
+		<IR id="183" name="PRelu_103/Cast_112224_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="276" out_port_id="276"/>
+		<IR id="102" name="Add_59" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="212" out_port_id="212"/>
+		<IR id="4" name="BatchNormalization_1/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="327" out_port_id="327"/>
+		<IR id="190" name="Conv_106" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="222" out_port_id="222"/>
+		<IR id="12" name="BatchNormalization_10/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="248" out_port_id="248"/>
+		<IR id="53" name="Add_34" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="360" out_port_id="360"/>
+		<IR id="242" name="Add_137" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="391" out_port_id="391"/>
+		<IR id="293" name="Add_166" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="260" out_port_id="260"/>
+		<IR id="74" name="Add_45" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.d4.conv.weight" out_port_id="model.encoder.level3.2.d4.conv.weight"/>
+		<IR id="168" name="model.encoder.level3.2.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.c1.conv.weight" out_port_id="model.encoder.level3.6.c1.conv.weight"/>
+		<IR id="254" name="model.encoder.level3.6.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.d1.conv.weight" out_port_id="model.encoder.level3.6.d1.conv.weight"/>
+		<IR id="256" name="model.encoder.level3.6.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="384" out_port_id="384"/>
+		<IR id="284" name="Conv_159" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.d4.conv.weight" out_port_id="model.encoder.level2.1.d4.conv.weight"/>
+		<IR id="66" name="model.encoder.level2.1.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="279" out_port_id="279"/>
+		<IR id="109" name="Concat_62" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="288" out_port_id="288"/>
+		<IR id="129" name="Conv_70" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="412" out_port_id="412"/>
+		<IR id="333" name="Conv_184" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="280" out_port_id="280"/>
+		<IR id="113" name="BatchNormalization_63/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="411" out_port_id="411"/>
+		<IR id="330" name="Conv_183" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="230" out_port_id="230"/>
+		<IR id="28" name="Conv_17" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="396" out_port_id="396"/>
+		<IR id="304" name="BatchNormalization_170/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="249" out_port_id="249"/>
+		<IR id="57" name="BatchNormalization_35/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="434" out_port_id="434"/>
+		<IR id="81" name="PRelu_49/Cast_112202_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="240" out_port_id="240"/>
+		<IR id="42" name="Conv_26" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="224" out_port_id="224"/>
+		<IR id="14" name="PRelu_11" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.d1.conv.weight" out_port_id="model.encoder.level3.7.d1.conv.weight"/>
+		<IR id="279" name="model.encoder.level3.7.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="432" out_port_id="432"/>
+		<IR id="35" name="PRelu_23/Cast_112208_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="241" out_port_id="241"/>
+		<IR id="44" name="Conv_27" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="231" out_port_id="231"/>
+		<IR id="23" name="Add_18" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="283" out_port_id="283"/>
+		<IR id="117" name="Conv_65" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.d4.conv.weight" out_port_id="model.encoder.level2.0.d4.conv.weight"/>
+		<IR id="43" name="model.encoder.level2.0.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="425" out_port_id="425"/>
+		<IR id="350" name="Conv_195" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.d1.conv.weight" out_port_id="model.encoder.level3.5.d1.conv.weight"/>
+		<IR id="233" name="model.encoder.level3.5.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="350" out_port_id="350"/>
+		<IR id="228" name="BatchNormalization_128/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="305" out_port_id="305"/>
+		<IR id="153" name="Add_86" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="387" out_port_id="387"/>
+		<IR id="285" name="Add_162" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="306" out_port_id="306"/>
+		<IR id="154" name="Concat_87" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.c1.conv.weight" out_port_id="model.encoder.level2.0.c1.conv.weight"/>
+		<IR id="37" name="model.encoder.level2.0.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="370" out_port_id="370"/>
+		<IR id="261" name="Conv_146" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="254" out_port_id="254"/>
+		<IR id="65" name="Conv_39" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="232" out_port_id="232"/>
+		<IR id="26" name="Add_19" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="433" out_port_id="433"/>
+		<IR id="58" name="PRelu_36/Cast_112206_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.up_l2.0.weight" out_port_id="model.up_l2.0.weight"/>
+		<IR id="342" name="BatchNormalization_192/mean/Fused_Mul_66176619_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.d8.conv.weight" out_port_id="model.encoder.level3.2.d8.conv.weight"/>
+		<IR id="171" name="model.encoder.level3.2.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.d2.conv.weight" out_port_id="model.encoder.level2.0.d2.conv.weight"/>
+		<IR id="41" name="model.encoder.level2.0.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="398" out_port_id="398"/>
+		<IR id="306" name="PRelu_171" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.d8.conv.weight" out_port_id="model.encoder.level3.3.d8.conv.weight"/>
+		<IR id="194" name="model.encoder.level3.3.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="287" out_port_id="287"/>
+		<IR id="126" name="Conv_69" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="378" out_port_id="378"/>
+		<IR id="274" name="BatchNormalization_154/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="270" out_port_id="270"/>
+		<IR id="95" name="Conv_53" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="292" out_port_id="292"/>
+		<IR id="131" name="Concat_74" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.d4.conv.weight" out_port_id="model.encoder.level3.5.d4.conv.weight"/>
+		<IR id="237" name="model.encoder.level3.5.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.d16.conv.weight" out_port_id="model.encoder.level3.7.d16.conv.weight"/>
+		<IR id="289" name="model.encoder.level3.7.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="322" out_port_id="322"/>
+		<IR id="182" name="BatchNormalization_102/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="243" out_port_id="243"/>
+		<IR id="50" name="Conv_29" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="368" out_port_id="368"/>
+		<IR id="257" name="Conv_144" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="443" out_port_id="443"/>
+		<IR id="275" name="PRelu_155/Cast_112220_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="282" out_port_id="282"/>
+		<IR id="115" name="PRelu_64" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.d4.conv.weight" out_port_id="model.encoder.level3.6.d4.conv.weight"/>
+		<IR id="260" name="model.encoder.level3.6.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="311" out_port_id="311"/>
+		<IR id="163" name="Conv_91" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="416" out_port_id="416"/>
+		<IR id="335" name="Concat_188" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.d4.conv.weight" out_port_id="model.encoder.level3.7.d4.conv.weight"/>
+		<IR id="283" name="model.encoder.level3.7.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="340" out_port_id="340"/>
+		<IR id="211" name="Conv_118" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="377" out_port_id="377"/>
+		<IR id="270" name="Add_153" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="402" out_port_id="402"/>
+		<IR id="93" name="Conv_175" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.d1.conv.weight" out_port_id="model.encoder.level2_0.d1.conv.weight"/>
+		<IR id="17" name="model.encoder.level2_0.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.d2.conv.weight" out_port_id="model.encoder.level3_0.d2.conv.weight"/>
+		<IR id="98" name="model.encoder.level3_0.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.d4.conv.weight" out_port_id="model.encoder.level3_0.d4.conv.weight"/>
+		<IR id="100" name="model.encoder.level3_0.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="345" out_port_id="345"/>
+		<IR id="216" name="Add_123" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="357" out_port_id="357"/>
+		<IR id="241" name="Conv_134" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="290" out_port_id="290"/>
+		<IR id="127" name="Add_72" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="415" out_port_id="415"/>
+		<IR id="334" name="Add_187" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="410" out_port_id="410"/>
+		<IR id="327" name="Conv_182" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="275" out_port_id="275"/>
+		<IR id="107" name="Conv_58" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="448" out_port_id="448"/>
+		<IR id="346" name="PRelu_193/Cast_112234_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="274" out_port_id="274"/>
+		<IR id="104" name="Conv_57" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="320" out_port_id="320"/>
+		<IR id="177" name="Concat_100" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="317" out_port_id="317"/>
+		<IR id="170" name="Add_97" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.d16.conv.weight" out_port_id="model.combine_l2_l3.1.d16.conv.weight"/>
+		<IR id="332" name="model.combine_l2_l3.1.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="359" out_port_id="359"/>
+		<IR id="239" name="Add_136" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="294" out_port_id="294"/>
+		<IR id="136" name="BatchNormalization_76/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="318" out_port_id="318"/>
+		<IR id="173" name="Add_98" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.d4.conv.weight" out_port_id="model.encoder.level3.4.d4.conv.weight"/>
+		<IR id="214" name="model.encoder.level3.4.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.d16.conv.weight" out_port_id="model.encoder.level3.6.d16.conv.weight"/>
+		<IR id="266" name="model.encoder.level3.6.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="251" out_port_id="251"/>
+		<IR id="59" name="PRelu_36" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.d1.conv.weight" out_port_id="model.combine_l2_l3.1.d1.conv.weight"/>
+		<IR id="322" name="model.combine_l2_l3.1.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="406" out_port_id="406"/>
+		<IR id="319" name="PRelu_178" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.d8.conv.weight" out_port_id="model.encoder.level3.1.d8.conv.weight"/>
+		<IR id="148" name="model.encoder.level3.1.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.d2.conv.weight" out_port_id="model.encoder.level3.2.d2.conv.weight"/>
+		<IR id="166" name="model.encoder.level3.2.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="319" out_port_id="319"/>
+		<IR id="176" name="Add_99" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.d2.conv.weight" out_port_id="model.encoder.level3.0.d2.conv.weight"/>
+		<IR id="120" name="model.encoder.level3.0.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.d1.conv.weight" out_port_id="model.encoder.level3.2.d1.conv.weight"/>
+		<IR id="164" name="model.encoder.level3.2.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="413" out_port_id="413"/>
+		<IR id="328" name="Add_185" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="302" out_port_id="302"/>
+		<IR id="152" name="Conv_83" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="442" out_port_id="442"/>
+		<IR id="252" name="PRelu_142/Cast_112238_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.d8.conv.weight" out_port_id="model.encoder.level3.0.d8.conv.weight"/>
+		<IR id="125" name="model.encoder.level3.0.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="445" out_port_id="445"/>
+		<IR id="305" name="PRelu_171/Cast_112230_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="417" out_port_id="417"/>
+		<IR id="339" name="BatchNormalization_189/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.d2.conv.weight" out_port_id="model.encoder.level3.3.d2.conv.weight"/>
+		<IR id="189" name="model.encoder.level3.3.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="output" out_port_id="output"/>
+		<IR id="356" name="output" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="333" out_port_id="333"/>
+		<IR id="199" name="Add_112" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="273" out_port_id="273"/>
+		<IR id="101" name="Conv_56" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="293" out_port_id="293"/>
+		<IR id="132" name="Add_75" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.d2.conv.weight" out_port_id="model.encoder.level2_0.d2.conv.weight"/>
+		<IR id="19" name="model.encoder.level2_0.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.c1.conv.weight" out_port_id="model.encoder.level3.1.c1.conv.weight"/>
+		<IR id="139" name="model.encoder.level3.1.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.d1.conv.weight" out_port_id="model.encoder.level3_0.d1.conv.weight"/>
+		<IR id="96" name="model.encoder.level3_0.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="225" out_port_id="225"/>
+		<IR id="16" name="Conv_12" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.d16.conv.weight" out_port_id="model.encoder.level3.2.d16.conv.weight"/>
+		<IR id="174" name="model.encoder.level3.2.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="221" out_port_id="221"/>
+		<IR id="8" name="Concat_9" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="343" out_port_id="343"/>
+		<IR id="218" name="Conv_121" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.d4.conv.weight" out_port_id="model.combine_l2_l3.1.d4.conv.weight"/>
+		<IR id="326" name="model.combine_l2_l3.1.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.d8.conv.weight" out_port_id="model.encoder.level3.7.d8.conv.weight"/>
+		<IR id="286" name="model.encoder.level3.7.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="381" out_port_id="381"/>
+		<IR id="278" name="Conv_156" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="437" out_port_id="437"/>
+		<IR id="137" name="PRelu_77/Cast_112228_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="438" out_port_id="438"/>
+		<IR id="160" name="PRelu_90/Cast_112236_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="399" out_port_id="399"/>
+		<IR id="308" name="Conv_172" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level1.conv.weight" out_port_id="model.encoder.level1.conv.weight"/>
+		<IR id="1" name="BatchNormalization_1/mean/Fused_Mul_66096611_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.d4.conv.weight" out_port_id="model.encoder.level3.0.d4.conv.weight"/>
+		<IR id="122" name="model.encoder.level3.0.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="355" out_port_id="355"/>
+		<IR id="236" name="Conv_132" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.d16.conv.weight" out_port_id="model.encoder.level3.4.d16.conv.weight"/>
+		<IR id="220" name="model.encoder.level3.4.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.c1.conv.weight" out_port_id="model.encoder.level2.1.c1.conv.weight"/>
+		<IR id="60" name="model.encoder.level2.1.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="376" out_port_id="376"/>
+		<IR id="269" name="Concat_152" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="371" out_port_id="371"/>
+		<IR id="264" name="Conv_147" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.d8.conv.weight" out_port_id="model.encoder.level2_0.d8.conv.weight"/>
+		<IR id="24" name="model.encoder.level2_0.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="419" out_port_id="419"/>
+		<IR id="341" name="PRelu_190" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="272" out_port_id="272"/>
+		<IR id="99" name="Conv_55" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="245" out_port_id="245"/>
+		<IR id="48" name="Add_31" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.d2.conv.weight" out_port_id="model.encoder.level3.5.d2.conv.weight"/>
+		<IR id="235" name="model.encoder.level3.5.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.d1.conv.weight" out_port_id="model.encoder.level3.4.d1.conv.weight"/>
+		<IR id="210" name="model.encoder.level3.4.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="312" out_port_id="312"/>
+		<IR id="165" name="Conv_92" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="297" out_port_id="297"/>
+		<IR id="140" name="Conv_78" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="246" out_port_id="246"/>
+		<IR id="51" name="Add_32" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="284" out_port_id="284"/>
+		<IR id="119" name="Conv_66" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.d8.conv.weight" out_port_id="model.encoder.level3.4.d8.conv.weight"/>
+		<IR id="217" name="model.encoder.level3.4.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="430" out_port_id="430"/>
+		<IR id="5" name="PRelu_2/Cast_112218_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="431" out_port_id="431"/>
+		<IR id="13" name="PRelu_11/Cast_112204_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="394" out_port_id="394"/>
+		<IR id="299" name="PRelu_168" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="356" out_port_id="356"/>
+		<IR id="238" name="Conv_133" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="441" out_port_id="441"/>
+		<IR id="229" name="PRelu_129/Cast_112216_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="228" out_port_id="228"/>
+		<IR id="22" name="Conv_15" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="314" out_port_id="314"/>
+		<IR id="169" name="Conv_94" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="354" out_port_id="354"/>
+		<IR id="234" name="Conv_131" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="253" out_port_id="253"/>
+		<IR id="63" name="Conv_38" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="267" out_port_id="267"/>
+		<IR id="89" name="BatchNormalization_51/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="395" out_port_id="395"/>
+		<IR id="300" name="Concat_169" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="400" out_port_id="400"/>
+		<IR id="310" name="BatchNormalization_173/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.d2.conv.weight" out_port_id="model.encoder.level3.6.d2.conv.weight"/>
+		<IR id="258" name="model.encoder.level3.6.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="308" out_port_id="308"/>
+		<IR id="159" name="BatchNormalization_89/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="214" out_port_id="214"/>
+		<IR id="6" name="PRelu_2" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="375" out_port_id="375"/>
+		<IR id="268" name="Add_151" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="352" out_port_id="352"/>
+		<IR id="230" name="PRelu_129" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.d1.conv.weight" out_port_id="model.encoder.level3.1.d1.conv.weight"/>
+		<IR id="141" name="model.encoder.level3.1.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="372" out_port_id="372"/>
+		<IR id="267" name="Conv_148" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="332" out_port_id="332"/>
+		<IR id="196" name="Add_111" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.4.c1.conv.weight" out_port_id="model.encoder.level3.4.c1.conv.weight"/>
+		<IR id="208" name="model.encoder.level3.4.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="261" out_port_id="261"/>
+		<IR id="75" name="Concat_46" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.d2.conv.weight" out_port_id="model.encoder.level2.1.d2.conv.weight"/>
+		<IR id="64" name="model.encoder.level2.1.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.d8.conv.weight" out_port_id="model.encoder.level3.5.d8.conv.weight"/>
+		<IR id="240" name="model.encoder.level3.5.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="386" out_port_id="386"/>
+		<IR id="290" name="Conv_161" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.5.d16.conv.weight" out_port_id="model.encoder.level3.5.d16.conv.weight"/>
+		<IR id="243" name="model.encoder.level3.5.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="325" out_port_id="325"/>
+		<IR id="186" name="Conv_104" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="420" out_port_id="420"/>
+		<IR id="343" name="ConvTranspose_191" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="262" out_port_id="262"/>
+		<IR id="76" name="Add_47" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="296" out_port_id="296"/>
+		<IR id="138" name="PRelu_77" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="238" out_port_id="238"/>
+		<IR id="38" name="Conv_24" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="369" out_port_id="369"/>
+		<IR id="259" name="Conv_145" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="233" out_port_id="233"/>
+		<IR id="29" name="Add_20" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="331" out_port_id="331"/>
+		<IR id="193" name="Add_110" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="300" out_port_id="300"/>
+		<IR id="146" name="Conv_81" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="408" out_port_id="408"/>
+		<IR id="323" name="Conv_180" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.d16.conv.weight" out_port_id="model.encoder.level2.0.d16.conv.weight"/>
+		<IR id="49" name="model.encoder.level2.0.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.d2.conv.weight" out_port_id="model.combine_l2_l3.1.d2.conv.weight"/>
+		<IR id="324" name="model.combine_l2_l3.1.d2.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="344" out_port_id="344"/>
+		<IR id="221" name="Conv_122" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.6.d8.conv.weight" out_port_id="model.encoder.level3.6.d8.conv.weight"/>
+		<IR id="263" name="model.encoder.level3.6.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="363" out_port_id="363"/>
+		<IR id="247" name="Add_140" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.combine_l2_l3.1.d8.conv.weight" out_port_id="model.combine_l2_l3.1.d8.conv.weight"/>
+		<IR id="329" name="model.combine_l2_l3.1.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="330" out_port_id="330"/>
+		<IR id="198" name="Conv_109" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="263" out_port_id="263"/>
+		<IR id="80" name="BatchNormalization_48/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.d8.conv.weight" out_port_id="model.encoder.level2.0.d8.conv.weight"/>
+		<IR id="46" name="model.encoder.level2.0.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="316" out_port_id="316"/>
+		<IR id="175" name="Conv_96" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="374" out_port_id="374"/>
+		<IR id="265" name="Add_150" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.0.c1.conv.weight" out_port_id="model.encoder.level3.0.c1.conv.weight"/>
+		<IR id="116" name="model.encoder.level3.0.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="404" out_port_id="404"/>
+		<IR id="317" name="BatchNormalization_177/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.classifier.conv.weight" out_port_id="model.encoder.classifier.conv.weight"/>
+		<IR id="307" name="BatchNormalization_173/mean/Fused_Mul_66136615_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="324" out_port_id="324"/>
+		<IR id="184" name="PRelu_103" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.1.d16.conv.weight" out_port_id="model.encoder.level2.1.d16.conv.weight"/>
+		<IR id="72" name="model.encoder.level2.1.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.d16.conv.weight" out_port_id="model.encoder.level3_0.d16.conv.weight"/>
+		<IR id="106" name="model.encoder.level3_0.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="423" out_port_id="423"/>
+		<IR id="347" name="PRelu_193" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="353" out_port_id="353"/>
+		<IR id="232" name="Conv_130" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="421" out_port_id="421"/>
+		<IR id="345" name="BatchNormalization_192/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="424" out_port_id="424"/>
+		<IR id="348" name="Concat_194" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2.0.d1.conv.weight" out_port_id="model.encoder.level2.0.d1.conv.weight"/>
+		<IR id="39" name="model.encoder.level2.0.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.d4.conv.weight" out_port_id="model.encoder.level2_0.d4.conv.weight"/>
+		<IR id="21" name="model.encoder.level2_0.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="341" out_port_id="341"/>
+		<IR id="213" name="Conv_119" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.d16.conv.weight" out_port_id="model.encoder.level2_0.d16.conv.weight"/>
+		<IR id="27" name="model.encoder.level2_0.d16.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="436" out_port_id="436"/>
+		<IR id="114" name="PRelu_64/Cast_112226_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="388" out_port_id="388"/>
+		<IR id="288" name="Add_163" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="239" out_port_id="239"/>
+		<IR id="40" name="Conv_25" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="266" out_port_id="266"/>
+		<IR id="85" name="Concat_50" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="447" out_port_id="447"/>
+		<IR id="340" name="PRelu_190/Cast_112212_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="304" out_port_id="304"/>
+		<IR id="150" name="Add_85" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="328" out_port_id="328"/>
+		<IR id="192" name="Conv_107" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="446" out_port_id="446"/>
+		<IR id="318" name="PRelu_178/Cast_112240_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="409" out_port_id="409"/>
+		<IR id="325" name="Conv_181" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="385" out_port_id="385"/>
+		<IR id="287" name="Conv_160" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="303" out_port_id="303"/>
+		<IR id="147" name="Add_84" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="321" out_port_id="321"/>
+		<IR id="178" name="Add_101" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="326" out_port_id="326"/>
+		<IR id="188" name="Conv_105" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="285" out_port_id="285"/>
+		<IR id="121" name="Conv_67" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="299" out_port_id="299"/>
+		<IR id="144" name="Conv_80" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="298" out_port_id="298"/>
+		<IR id="142" name="Conv_79" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="269" out_port_id="269"/>
+		<IR id="91" name="PRelu_52" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="390" out_port_id="390"/>
+		<IR id="292" name="Concat_165" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.2.c1.conv.weight" out_port_id="model.encoder.level3.2.c1.conv.weight"/>
+		<IR id="162" name="model.encoder.level3.2.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.d4.conv.weight" out_port_id="model.encoder.level3.3.d4.conv.weight"/>
+		<IR id="191" name="model.encoder.level3.3.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="361" out_port_id="361"/>
+		<IR id="245" name="Add_138" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.up_l3.0.weight" out_port_id="model.up_l3.0.weight"/>
+		<IR id="311" name="model.up_l3.0.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="338" out_port_id="338"/>
+		<IR id="207" name="PRelu_116" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="440" out_port_id="440"/>
+		<IR id="206" name="PRelu_116/Cast_112214_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.3.d1.conv.weight" out_port_id="model.encoder.level3.3.d1.conv.weight"/>
+		<IR id="187" name="model.encoder.level3.3.d1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="349" out_port_id="349"/>
+		<IR id="224" name="Add_127" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level2_0.c1.conv.weight" out_port_id="model.encoder.level2_0.c1.conv.weight"/>
+		<IR id="15" name="model.encoder.level2_0.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="373" out_port_id="373"/>
+		<IR id="262" name="Add_149" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.7.c1.conv.weight" out_port_id="model.encoder.level3.7.c1.conv.weight"/>
+		<IR id="277" name="model.encoder.level3.7.c1.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3.1.d4.conv.weight" out_port_id="model.encoder.level3.1.d4.conv.weight"/>
+		<IR id="145" name="model.encoder.level3.1.d4.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="403" out_port_id="403"/>
+		<IR id="313" name="Concat_176" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="265" out_port_id="265"/>
+		<IR id="82" name="PRelu_49" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="362" out_port_id="362"/>
+		<IR id="246" name="Concat_139" out_port_id="5"/>
+	</map>
+	<map>
+		<framework name="220" out_port_id="220"/>
+		<IR id="84" name="AveragePool_8" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="336" out_port_id="336"/>
+		<IR id="205" name="BatchNormalization_115/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="401" out_port_id="401"/>
+		<IR id="312" name="ConvTranspose_174" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="237" out_port_id="237"/>
+		<IR id="36" name="PRelu_23" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="input" out_port_id="input"/>
+		<IR id="0" name="input" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="383" out_port_id="383"/>
+		<IR id="282" name="Conv_158" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="426" out_port_id="426"/>
+		<IR id="352" name="BatchNormalization_196/variance/Fused_Add_" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="329" out_port_id="329"/>
+		<IR id="195" name="Conv_108" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="255" out_port_id="255"/>
+		<IR id="67" name="Conv_40" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="389" out_port_id="389"/>
+		<IR id="291" name="Add_164" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="449" out_port_id="449"/>
+		<IR id="353" name="PRelu_197/Cast_112210_const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.classifier.weight" out_port_id="model.classifier.weight"/>
+		<IR id="355" name="model.classifier.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="model.encoder.level3_0.d8.conv.weight" out_port_id="model.encoder.level3_0.d8.conv.weight"/>
+		<IR id="103" name="model.encoder.level3_0.d8.conv.weight/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="289" out_port_id="289"/>
+		<IR id="124" name="Add_71" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="347" out_port_id="347"/>
+		<IR id="222" name="Add_125" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="313" out_port_id="313"/>
+		<IR id="167" name="Conv_93" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="271" out_port_id="271"/>
+		<IR id="97" name="Conv_54" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="242" out_port_id="242"/>
+		<IR id="47" name="Conv_28" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="428" out_port_id="428"/>
+		<IR id="354" name="PRelu_197" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="301" out_port_id="301"/>
+		<IR id="149" name="Conv_82" out_port_id="2"/>
+	</map>
+</mapping>

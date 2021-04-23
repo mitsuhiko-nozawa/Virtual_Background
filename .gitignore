@@ -1,0 +1,18 @@
+**/.DS_Store
+**/.python-version
+tmp/*
+movies/*
+**/__pycache__
+docs/movie.mp4
+back_ground2
+**/.ipynb_checkpoints
+**/*.ipynb
+test
+
+
+# too many pic
+back_ground/zoo
+
+!**/.gitkeep
+
+app/test*
